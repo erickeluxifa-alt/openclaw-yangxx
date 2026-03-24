@@ -1,0 +1,26 @@
+{
+  "name": "baseline",
+  "description": "基础技能集 - 每个 OpenClaw 都应该有",
+  "skills": [
+    {
+      "name": "github",
+      "description": "GitHub 操作",
+      "required": true,
+      "reason": "代码管理必备"
+    },
+    {
+      "name": "weather",
+      "description": "天气查询",
+      "required": true,
+      "reason": "实用小工具"
+    },
+    {
+      "name": "feishu-doc",
+      "description": "飞书文档",
+      "required": false,
+      "reason": "国内办公常用"
+    }
+  ],
+  "installCommand": "clawhub install github weather feishu-doc",
+  "verification": "问它'你会做什么'，应该能列出这些技能"
+}
